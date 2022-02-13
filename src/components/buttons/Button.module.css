@@ -1,6 +1,8 @@
 .button {
     font-size: 1.4rem;
     background-color: #f0f0f0;
+    width: 100%;
+    height: 100%;
     border: none;
     border-right: solid 1px #888;
     border-bottom: solid 1px #888;
@@ -11,15 +13,15 @@
     background-color: #ccc;
 }
 
-.button.double {
+.double {
     grid-column: span 2;
 }
 
-.button.triple {
+.triple {
     grid-column: span 3;
 }
 
-.button.operation {
+.operation {
     background-color: #fa8231;
     color: #fff;
 }
