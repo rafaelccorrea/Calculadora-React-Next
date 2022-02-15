@@ -7,7 +7,7 @@ export default function Button(props) {
     
     return (
             <button 
-            onClick={() => props.click && props.click(props.label)}
+            onClick={e => props.click && props.click(props.label)}
             className={`
                 ${styles.button} ${operation ? styles.operation : ""}
                 ${styles.button} ${double ? styles.double : ""}
